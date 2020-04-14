@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AssignmentForms
@@ -27,7 +20,7 @@ namespace AssignmentForms
         private void btnEmployee_Click(object sender, EventArgs e)
         {
             this.Hide();
-            StoreEmployee MyEmployee= new StoreEmployee();
+            StoreEmployee MyEmployee = new StoreEmployee();
             MyEmployee.Show();
         }
 
@@ -41,7 +34,7 @@ namespace AssignmentForms
         private void btnPayroll_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EmployeePayroll MyPayroll= new EmployeePayroll();
+            EmployeePayroll MyPayroll = new EmployeePayroll();
             MyPayroll.Show();
         }
     }

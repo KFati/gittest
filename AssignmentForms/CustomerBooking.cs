@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace AssignmentForms
 {
@@ -20,11 +15,8 @@ namespace AssignmentForms
             radNormalD.CheckedChanged += Compute;
             radSafariD.CheckedChanged += Compute;
             radNightD.CheckedChanged += Compute;
-
             cbCourse.TextChanged += Compute;
-
             nupNormalD.Click += Compute;
-
             txtNoPerson.TextChanged += Compute;
         }
 

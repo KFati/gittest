@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AssignmentForms
@@ -34,14 +27,14 @@ namespace AssignmentForms
         private void btnInventory_Click(object sender, EventArgs e)
         {
             this.Hide();
-            InventoryEmployees inventoryEmployees= new InventoryEmployees();
+            InventoryEmployees inventoryEmployees = new InventoryEmployees();
             inventoryEmployees.Show();
         }
 
         private void btnPayment_Click(object sender, EventArgs e)
         {
             this.Hide();
-            CustomerPayment customerPayment= new CustomerPayment();
+            CustomerPayment customerPayment = new CustomerPayment();
             customerPayment.Show();
         }
     }
